@@ -14,12 +14,12 @@ export const metadata = {
   description:
     "This is the portfolio of Varsha Karanam.",
 };
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
         {/* Override default favicon */}
+        <link rel="icon" href="data:;base64,=" type="image/x-icon" />
       </head>
       <body className={inter.className}>
         <ToastContainer />
